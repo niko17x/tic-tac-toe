@@ -124,3 +124,17 @@ const main = (() => {
 
   resetButton.addEventListener('click', resetBoard);
 })();
+
+
+
+
+
+
+
+
+// Notes from the video:
+const cellElements = document.querySelectorAll('[data-cell]');
+
+cellElements.forEach((cell) => {
+  cell.addEventListener('click', handleClick, { once:true }); // Allows user to only click the same area once.
+})

@@ -49,11 +49,13 @@
   cursor: pointer;
 }
 
-.playerX {
+.playerX,
+.X {
   color: #09C372;
 }
 
-.playerO {
+.playerO,
+.O {
   color: #498AFB;
 }
 
@@ -81,4 +83,13 @@
 
 #reset {
   background-color: #FF3860;
+}
+
+/* New */
+.x-wins {
+  border: 3px solid #09C372;
+}
+
+.o-wins {
+  border: 3px solid #498AFB;
 }
